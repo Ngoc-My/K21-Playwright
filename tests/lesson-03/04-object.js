@@ -6,6 +6,8 @@ const car = {
 };
 
 console.log("Year of car: " + car.year);
+console.log("Year of car: ", car.year);
+console.log(`Year of car: ${car.year}`);
 
 /*  Bài 2:  Tạo một object person có thuộc tính :
 - name, address (là một object lồng với các thuộc tính street, city, country). 
@@ -20,6 +22,8 @@ const person = {
 };
 
 console.log("Street: " + person.address.street);
+console.log("Street: ", person.address.street);
+console.log(`Street: ${person.address.street}`);
 
 /* BÀI 3 : Truy cập điểm toán bằng ngoặc vuông */
 
@@ -32,7 +36,9 @@ const student = {
 };
 
 console.log("Math grade: " + student["grades"]["math"]);
-console.log("English grade: " + student["grades"]["english"]);
+console.log(`English grade: ${student["grades"]["english"]}`);
+console.log("Math grade: ", student["grades"]["math"]);
+
 
 // BÀI 4 Thay đổi volume trong object settings
 const settings = {
@@ -42,6 +48,8 @@ const settings = {
 // Thay đổi volume
 settings.volume = 80;
 console.log("New settings:" + settings.volume);
+console.log("New settings:", settings.volume);
+console.log(`New settings: ${settings.volume}`);
 
 /*  BÀI 5: Thêm thuộc tính color vào object bike */
 const bike = {
@@ -51,7 +59,8 @@ const bike = {
 // Thêm thuộc tính mới
 bike.color = "Red";
 console.log("Bike:" + bike.color);
-
+console.log("Bike:", bike.color);
+console.log(`Bike: ${bike.color}`);
 /* BÀI 6: Xóa thuộc tính age khỏi object employee */
 
 const employee = {
@@ -73,9 +82,9 @@ Hãy viết code để đáp ứng yêu cầu sau:
 tên các học sinh */
 
 const school = {
-  classA: ["An", "Bình", "Châu"],
-  classB: ["Đào", "Hương", "Giang"]
+    classA: ["An", "Bình", "Châu"],
+    classB: ["Đào", "Hương", "Giang"]
 };
 
 console.log("School:" + school.classA);
-console.log("School:" + school.classB);
+console.log(`School: ${school.classB}`);
