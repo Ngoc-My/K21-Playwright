@@ -33,6 +33,7 @@ const student = {
         math: 9,
         english: 10
     }
+
 };
 
 console.log("Math grade: " + student["grades"]["math"]);
