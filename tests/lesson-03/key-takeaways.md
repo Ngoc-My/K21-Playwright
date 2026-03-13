@@ -68,7 +68,8 @@ const coPhieu = [10, 25, 40, 55, 70, 90, 110, 135, 160, 190];\
 console.log(coPhieu[1]);\
 console.log(coPhieu[3]);\
 console.log(coPhieu[5]);\
-5. **Function**
+độ dài phần tử thì .lengt
+5. **Function** để dùng đi dùng lại
 - Function = hàm, là đoạn code được đặt tên và có thể tái sử dụng, thực hiện 1 nhiệm vụ hoặc 1 tính toán cụ thể.
 - Khai báo:
     function <nameFunction>() {
