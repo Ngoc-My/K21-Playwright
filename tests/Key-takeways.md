@@ -33,6 +33,14 @@ page.getByText('Save', { exact: true });\
 - git branch
 - git checkout
 - Checkout ra branch mới: git checkout -b <ten branch moi>
+-  Đẩy file lên nhánh : git add .
+- Commit file vào nhánh : git commit -m "Add test file for login feature
 - Đẩy code từ branch lên git: git push origin <tên branch>
 - Lấy 1 branch từ git về: git fetch origin <ten branch>
 - Git: remote
+- tóm lại quy trình 
+- git checkout feature/login
+- git add .
+- git commit -m "Add new file"
+- ggit push origin feature/login
+---
